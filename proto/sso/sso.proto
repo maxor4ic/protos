@@ -13,6 +13,8 @@ service Auth {
 message RegisterRequest {
     string email = 1; // Email of the user to register.
     string password = 2; // Password of the user to register.
+    string username = 3; // Username of the user to register.
+    string dateofbirth = 4; // Date of birth of the user to register.
 } 
 
 message RegisterResponse {
